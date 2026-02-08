@@ -1,2 +1,0 @@
-# G-venlik-Sistemi
-Test
