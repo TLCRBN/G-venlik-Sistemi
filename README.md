@@ -1,46 +1,36 @@
 # G-venlik Sistemi
 
-## Project Description
-G-venlik Sistemi is a comprehensive security system designed to provide robust protection and management of real-time security events. The system offers advanced features for monitoring, reporting, and responding to incidents, ensuring a secure environment for users and assets.
-
-## Features
-- Real-time event monitoring
-- Automated incident reporting
-- User authentication and authorization
-- Customizable alerts and notifications
-- Detailed analytics and reporting tools
-- Integration with existing security infrastructure
-
-## Installation
-1. Clone the repository:
+## Installation Instructions  
+1. Clone the repository:  
    ```bash
    git clone https://github.com/TLCRBN/G-venlik-Sistemi.git
+   ```  
+2. Change directory into the cloned folder:  
+   ```bash
    cd G-venlik-Sistemi
-   ```
-2. Install the required dependencies:
+   ```  
+3. Install the necessary dependencies:  
    ```bash
-   npm install  # or use pip for Python projects
-   ```
+   npm install
+   ```  
 
-## Usage
-To start the application, run the following command:
-```bash
-npm start  # or python main.py for Python projects
-```
-Then, navigate to `http://localhost:3000` in your web browser to access the system.
+## Features  
+- Real-time security monitoring  
+- Alerts for suspicious activities  
+- User-friendly interface  
+- Remote access to security feeds  
 
-## Deployment
-For deployment on a production server:
-1. Ensure the server meets the system requirements.
-2. Clone the repository on the server as demonstrated in the installation section.
-3. Set environment variables and configurations as needed.
-4. Finally, run the application in a production environment with the following command:
+## Usage Guide  
+1. Start the application:  
    ```bash
-   npm run start:prod  # or appropriate command for your setup
-   ```
+   npm start
+   ```  
+2. Open your web browser and navigate to `http://localhost:3000`.  
+3. Follow the on-screen instructions to set up and use the security features.  
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Deployment Options  
+- **Heroku:** Deploy easily using the Heroku CLI.  
+- **AWS:** Use AWS EC2 for cloud deployment.  
+- **Docker:** Create a Docker image for containerized deployment.  
 
-## Author
-TLCRBN
+For detailed documentation, please refer to the Wiki section of the repository.
